@@ -1,0 +1,140 @@
+
+#root>div>h2 {
+  text-align: center;
+}
+
+.admin{
+  max-width: 550px;
+}
+#root>div {
+   max-height: 210vh; 
+  background: hwb(0 100% 0%);
+  max-width: 420px;
+  margin: 100px auto;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  width: 100%;
+  height: 44px;
+  padding: 0 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+
+button {
+  height: 44px;
+  padding: 0 18px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, #4f46e5, #2563eb);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+p {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+div[style] {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  margin-bottom: 16px;
+
+}
+
+h2+button {
+  margin-right: 10px;
+}
+
+input[placeholder*="Search"] {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+button+button {
+  margin-left: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+tr:hover td {
+  background: #f8fafc;
+}
+
+@media (max-width: 600px) {
+  #root>div {
+    padding: 20px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px; 
+  box-sizing: border-box;
+}
+
+.password-field span {
+  position: absolute;
+  right: 12px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  user-select: none;
+}
